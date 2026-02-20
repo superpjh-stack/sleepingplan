@@ -31,7 +31,19 @@
       "Bash(npm run db:migrate:*)",
       "Bash(gh auth:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh api:*)",
+      "Bash(git config:*)",
+      "Bash(gh repo create:*)",
+      "Bash(curl:*)",
+      "Bash(aws:*)",
+      "Bash(aws sts get-caller-identity:*)",
+      "Bash(powershell -Command \"aws logs describe-log-streams --log-group-name ''/aws/apprunner/sleepingplan/ad5a6f66b38e4d40b67be6f0ee164299/service'' --region ap-northeast-1 --order-by LastEventTime --descending --max-items 3 --query ''logStreams[*].logStreamName'' --output text 2>&1\")",
+      "Bash(powershell -Command:*)",
+      "Bash(git push:*)",
+      "Bash(DB_PASS=\"8a01b3dfb13411b8aa1adcc5996dd10f\")",
+      "Bash(__NEW_LINE_2fa8862f431eb756__ aws rds create-db-instance --db-instance-identifier sleepingplan-db --db-instance-class db.t3.micro --engine postgres --engine-version \"17.8\" --master-username postgres --master-user-password \"$DB_PASS\" --db-name sleeping_plan --allocated-storage 20 --storage-type gp2 --publicly-accessible --vpc-security-group-ids sg-04127ccac935d45a5 --no-multi-az --region ap-northeast-1 --query 'DBInstance.DBInstanceStatus' --output text)"
     ]
   },
   "enableAllProjectMcpServers": true,

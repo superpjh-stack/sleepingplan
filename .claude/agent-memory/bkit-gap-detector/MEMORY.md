@@ -27,8 +27,19 @@
 - **Migration**: ~495 new lines, 16 files to modify, 1 to delete, 4 npm packages
 - **Status**: < 90%, iteration (migration) required
 
+### responsive-web-architecture v0.1 (2026-02-21)
+- **Match Rate**: 96% (80/83 checkpoints passed)
+- **Status**: PASSED (>= 90%), no iteration needed
+- **Key Gaps**:
+  - Navbar.tsx not deleted (dead code, 85 lines) -- only actionable gap
+  - Sidebar container: `shrink-0` instead of `min-h-screen` (cosmetic)
+  - Dashboard mobile stacking: `mt-5 lg:mt-0` instead of `space-y-5 lg:space-y-0` (cosmetic)
+- **Code Quality**: navItems duplicated in Sidebar.tsx and BottomTabBar.tsx (extract recommended)
+
 ## Architecture Patterns
-- Navbar handles both desktop horizontal nav and mobile bottom tab bar (no separate Sidebar)
+- Layout split into Sidebar (lg+) + MobileHeader (<lg) + BottomTabBar (<md)
+- Navbar.tsx is now dead code (layout.tsx no longer imports it)
+- Navbar previously handled both desktop horizontal nav and mobile bottom tab bar
 - Claude API client logic is inline in `/api/coaching/generate/route.ts` (single consumer)
 - bkend.ts (213 lines) is the unified API client -- to be deleted post-migration
 - Stores: authStore, sleepRecordStore, goalStore (all Zustand, all import bkend.ts)
