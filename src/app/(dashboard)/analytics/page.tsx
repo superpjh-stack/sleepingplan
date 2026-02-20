@@ -23,7 +23,7 @@ export default function AnalyticsPage() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto space-y-6">
+    <div className="max-w-5xl mx-auto space-y-6">
       {/* 헤더 + 월 선택 */}
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold">수면 분석</h1>
