@@ -1,0 +1,531 @@
+{
+  "timestamp": "2026-02-19T17:05:34.780Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-02-19T17:04:07.991Z",
+    "activeFeatures": [
+      "sleep-habit-management",
+      "10 SleepingPlan",
+      "login",
+      "signup",
+      "(dashboard)",
+      "dashboard",
+      "record",
+      "analytics",
+      "coaching",
+      "settings",
+      "profile",
+      "generate",
+      "bkend.ts",
+      "stores",
+      "auth",
+      "sleep-record"
+    ],
+    "primaryFeature": "sleep-habit-management",
+    "features": {
+      "sleep-habit-management": {
+        "phase": "do",
+        "matchRate": null,
+        "iterationCount": 0,
+        "startedAt": "2026-02-20T00:00:00.000Z",
+        "planDoc": "docs/01-plan/features/sleep-habit-management.plan.md",
+        "designDoc": "docs/02-design/features/sleep-habit-management.design.md",
+        "analysisDoc": null,
+        "reportDoc": null
+      },
+      "10 SleepingPlan": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:04:09.269Z",
+          "lastUpdated": "2026-02-19T16:50:06.602Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/layout.tsx"
+      },
+      "login": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:04:58.139Z",
+          "lastUpdated": "2026-02-19T16:49:48.585Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/(auth)/login/page.tsx"
+      },
+      "signup": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:01.761Z",
+          "lastUpdated": "2026-02-19T16:49:52.677Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/(auth)/signup/page.tsx"
+      },
+      "(dashboard)": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:06.557Z",
+          "lastUpdated": "2026-02-19T16:50:00.206Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/(dashboard)/layout.tsx"
+      },
+      "dashboard": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:10.387Z",
+          "lastUpdated": "2026-02-19T17:04:07.991Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/(dashboard)/dashboard/page.tsx"
+      },
+      "record": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:15.412Z",
+          "lastUpdated": "2026-02-19T16:54:04.267Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/(dashboard)/record/page.tsx"
+      },
+      "analytics": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:18.869Z",
+          "lastUpdated": "2026-02-19T17:03:31.078Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/features/analytics/components/MiniWeekChart.tsx"
+      },
+      "coaching": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:23.179Z",
+          "lastUpdated": "2026-02-19T17:01:39.446Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/(dashboard)/coaching/page.tsx"
+      },
+      "settings": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:26.397Z",
+          "lastUpdated": "2026-02-19T16:05:26.397Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/(dashboard)/settings/page.tsx"
+      },
+      "profile": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:29.960Z",
+          "lastUpdated": "2026-02-19T16:05:29.961Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/(dashboard)/settings/profile/page.tsx"
+      },
+      "generate": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:05:35.363Z",
+          "lastUpdated": "2026-02-19T17:00:48.673Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/app/api/coaching/generate/route.ts"
+      },
+      "bkend.ts": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:06:16.535Z",
+          "lastUpdated": "2026-02-19T16:48:56.176Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/services/bkend.ts"
+      },
+      "stores": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:49:08.484Z",
+          "lastUpdated": "2026-02-19T16:52:41.650Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/stores/sleepRecordStore.ts"
+      },
+      "auth": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:49:22.042Z",
+          "lastUpdated": "2026-02-19T16:49:43.090Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/features/auth/hooks/useAuth.ts"
+      },
+      "sleep-record": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-02-19T16:52:46.238Z",
+          "lastUpdated": "2026-02-19T16:53:51.784Z"
+        },
+        "lastFile": "C:/AI Make/10 SleepingPlan/src/features/sleep-record/components/SleepCalendar.tsx"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-02-19T15:43:52.205Z",
+      "onboardingCompleted": true,
+      "lastActivity": "2026-02-19T17:04:07.991Z"
+    },
+    "history": [
+      {
+        "action": "plan_created",
+        "feature": "sleep-habit-management",
+        "timestamp": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "action": "design_created",
+        "feature": "sleep-habit-management",
+        "timestamp": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "action": "do_started",
+        "feature": "sleep-habit-management",
+        "timestamp": "2026-02-20T00:00:00.000Z"
+      },
+      {
+        "timestamp": "2026-02-19T16:04:09.269Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:04:18.164Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:04:48.713Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:04:53.806Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:04:58.139Z",
+        "feature": "login",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:01.761Z",
+        "feature": "signup",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:06.557Z",
+        "feature": "(dashboard)",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:10.387Z",
+        "feature": "dashboard",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:15.412Z",
+        "feature": "record",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:18.869Z",
+        "feature": "analytics",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:23.179Z",
+        "feature": "coaching",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:26.397Z",
+        "feature": "settings",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:29.961Z",
+        "feature": "profile",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:35.363Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:42.294Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:46.783Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:50.300Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:05:59.932Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:06:16.535Z",
+        "feature": "bkend.ts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:18:27.376Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:48:56.176Z",
+        "feature": "bkend.ts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:49:08.484Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:49:22.042Z",
+        "feature": "auth",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:49:37.785Z",
+        "feature": "auth",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:49:43.090Z",
+        "feature": "auth",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:49:48.585Z",
+        "feature": "login",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:49:52.677Z",
+        "feature": "signup",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:50:00.206Z",
+        "feature": "(dashboard)",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:50:06.602Z",
+        "feature": "10 SleepingPlan",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:52:41.650Z",
+        "feature": "stores",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:52:46.238Z",
+        "feature": "sleep-record",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:53:15.243Z",
+        "feature": "sleep-record",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:53:31.659Z",
+        "feature": "sleep-record",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:53:51.784Z",
+        "feature": "sleep-record",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:54:04.267Z",
+        "feature": "record",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:56:06.325Z",
+        "feature": "analytics",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:56:24.043Z",
+        "feature": "analytics",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:56:47.774Z",
+        "feature": "analytics",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T16:56:59.652Z",
+        "feature": "analytics",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T17:00:48.673Z",
+        "feature": "generate",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T17:01:15.552Z",
+        "feature": "coaching",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T17:01:28.648Z",
+        "feature": "coaching",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T17:01:39.446Z",
+        "feature": "coaching",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T17:03:31.078Z",
+        "feature": "analytics",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-02-19T17:04:07.991Z",
+        "feature": "dashboard",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}

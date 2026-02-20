@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app:*)",
+      "Bash(npm install)",
+      "Bash(npm install:*)",
+      "Bash(node -e:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(claude mcp list:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(python3:*)",
+      "Bash(npx @anthropic-ai/claude-code mcp call:*)",
+      "Bash(claude mcp:*)",
+      "WebFetch(domain:api.bkend.ai)",
+      "Bash(python:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Skill(bkit:pdca)",
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c \"taskkill /PID 3520 /F\")",
+      "Bash(cmd /c \"taskkill /PID 3520 /F 2>&1 && echo KILLED\")",
+      "Skill(pdca)",
+      "WebFetch(domain:docs.bkend.ai)",
+      "WebSearch",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force; Write-Host ''Killed''\")",
+      "Bash(npx prisma generate:*)",
+      "Bash(netstat:*)",
+      "Bash(docker:*)",
+      "Bash(npm run db:migrate:*)",
+      "Bash(gh auth:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "bkend"
+  ]
+}
